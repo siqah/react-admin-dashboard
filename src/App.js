@@ -4,6 +4,8 @@ import { Route, Routes } from "react-router-dom";
 import Sidebar from "./scenes/global/Sidebar";
 import Topbar from "./scenes/global/Topbar";
 
+import "./index.css"
+
 import Dashboard from "./scenes/dashboard";
 
 // import Team from "./scenes/team";
@@ -26,7 +28,7 @@ function App() {
         <CssBaseline />
         <div className="app">
           <Sidebar />
-          <main className="content">
+          <main className="content" >
             <Topbar />
                <Routes>
                 <Route path="/" element={<Dashboard />} />
