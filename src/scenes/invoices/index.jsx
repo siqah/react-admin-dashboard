@@ -48,8 +48,8 @@ const Invoices = () => {
   return (
     <Box m="20px">
       <Header
-        title="CONTACTS"
-        subtitle="List of Contacts for Future Reference"
+        title="INVOICES"
+        subtitle="List of invoices Balance"
       />
       <Box
         m="40px 0 0 0"
@@ -85,7 +85,6 @@ const Invoices = () => {
           checkboxSelection
           rows={mockDataInvoices}
           columns={columns}
-          
         />
       </Box>
     </Box>
