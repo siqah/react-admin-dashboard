@@ -126,7 +126,7 @@ const Form = () => {
                 label="Address 2"
                 onBlur={handleBlur}
                 onChange={handleChange}
-                value={values.address1}
+                value={values.address2}
                 name="address2"
                 error={!!touched.address2 && !!errors.address2}
                 helperText={touched.address2 && errors.address2}
